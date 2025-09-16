@@ -1,0 +1,12 @@
+body {
+    margin: 0%;
+    background-color: gray;
+}
+
+.content {
+    text-align: center;
+    justify-content: center;
+    color: #3d6199;
+    font-size: 73px;
+    padding: 15px;
+}
