@@ -9,9 +9,7 @@ const stringCanvas = document.querySelector('.string_canvas')
 let isStringMode = false
 let selectedPosts = []
 
-// Only run this code if we're on the index page (where these elements exist)
 if (pencilsImg && board && noteForm) {
-    // Pencil mode - for adding notes
     pencilsImg.addEventListener('click', (e) => {
     e.stopPropagation()
     notePopup.style.display = 'flex'
@@ -19,7 +17,6 @@ if (pencilsImg && board && noteForm) {
     selectedPosts = []
 })
 
-// String mode - for drawing connections
 stringImg.addEventListener('click', (e) => {
     e.stopPropagation()
     isStringMode = !isStringMode
@@ -39,17 +36,14 @@ stringImg.addEventListener('click', (e) => {
         noteForm.reset()
     })
 
-// Handle clicks on notes when in string mode
 board.addEventListener('click', (e) => {
     if (isStringMode && e.target.closest('.note')) {
         const note = e.target.closest('.note')
         
-        // Check if this note is already selected
         if (selectedPosts.includes(note)) {
             return
         }
         
-        // Highlight selected note
         note.style.border = '2px solid #ffbc32'
         selectedPosts.push(note)
         
@@ -72,7 +66,6 @@ function drawString() {
     const x2 = parseFloat(note2.style.left) + 60
     const y2 = parseFloat(note2.style.top) + 35
     
-    // Save to server
     fetch('/add-string', {
         method: 'POST',
         headers: {
@@ -83,7 +76,6 @@ function drawString() {
     .then(response => response.json())
     .catch(err => console.error('Error saving string:', err))
     
-    // Draw on canvas
     const line = document.createElementNS('http://www.w3.org/2000/svg', 'line')
     line.setAttribute('x1', x1)
     line.setAttribute('y1', y1)
@@ -151,7 +143,6 @@ function drawString() {
 })
 }
 
-// Handle suggestion form on future page
 const suggestionForm = document.getElementById('suggestionForm')
 if (suggestionForm) {
     suggestionForm.addEventListener('submit', (e) => {
@@ -183,10 +174,8 @@ if (suggestionForm) {
             return response.json()
         })
         .then(data => {
-            // Hide the form
             document.getElementById('formContainer').style.display = 'none'
             
-            // Show the thank you message
             const messageContainer = document.getElementById('messageContainer')
             const thankYouMessage = document.getElementById('thankYouMessage')
             thankYouMessage.textContent = 'Thank you for your suggestion, ' + name + '!'
