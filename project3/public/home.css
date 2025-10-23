@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+    background: linear-gradient(0deg,rgba(255, 251, 237, 1) 0%,#ddd 100%);
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height:75px;
+    border-radius: 5px;
+    
+    margin: 20px 15px 15px 15px;
+    padding: 0 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+}
+
+.bulletin-board{
+    width: 1200px;
+    height: 700px;
+    background-color: #7d5028;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 0 30px #dfac6d;
+}
+
+.pencils {
+    width: 125px;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    z-index: 10;
+    pointer-events: auto;
+}
+
+.string {
+    width: 125px;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: -10px;
+    left: 120px;
+    z-index: 10;
+    pointer-events: auto;
+}
+
+.p1{
+    color: #6F3A14;
+    font-size: 30px;
+    margin: 0;
+}
+
+/*a stands for anchor*/
+.future-button a{
+    color: #6F3A14;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0;
+}
+
+.past-button a{
+    color: #6F3A14;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0;
+}
+
+#past{
+    text-align: left;
+}
+
+#title{
+    text-align: center;
+}
+
+#future{
+    text-align: right;
+    
+}
+
+.p2{
+    text-align: center;
+    margin-top: 50px;
+    color: #ffbc32;
+    font-size: 50px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #FFFBED;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #6F3A14;
+}
+
+.popup-content input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #6F3A14;
+}
+
+.popup-content input[type="submit"],
+.popup-content button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-content input[type="submit"] {
+    background-color: #ffbc32;
+    color: #FFFBED;
+}
+
+.popup-content button {
+    background-color: #ccc;
+    color: #6F3A14;
+}
+
+.note {
+    position: absolute;
+    width: 120px;
+    background-color: #fffacd;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    word-wrap: break-word;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    z-index: 5;
+}
+
+.note p {
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+.note small {
+    display: block;
+    font-size: 10px;
+    color: #999;
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+}
+
+.string_canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+}

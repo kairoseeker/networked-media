@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>The Listening Bulletin</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="past-button" id="past">
+        <a href="past">past</a>
+      </div>
+
+      <p class="p1" id="title">the listening bulletin</p>
+
+      <div class="future-button" id="future">
+        <a href="future">future</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="bulletin-board" id="board">
+        <p class="p2" id="q1">What makes you happy?</p>
+        <img class="pencils" src="/images/pencils.png" />
+        <img class="string" src="/images/yellow-string.png" />
+
+        <% for(let p of allPosts){ %>
+        <div class="note" style="left: <%= p.x %>px; top: <%= p.y %>px">
+          <p><%= p.text %></p>
+          <small><%= p.time %></small>
+        </div>
+        <% } %>
+
+        <svg class="string_canvas" width="1200" height="700">
+          <% if (typeof allStrings !== 'undefined' && allStrings.length > 0) {
+          %> <% for(let s of allStrings){ %>
+          <line
+            x1="<%= s.x1 %>"
+            y1="<%= s.y1 %>"
+            x2="<%= s.x2 %>"
+            y2="<%= s.y2 %>"
+            style="stroke: #ffbc32; stroke-width: 2"
+          ></line>
+          <% } %> <% } %>
+        </svg>
+      </div>
+    </div>
+
+    <div class="form">
+      <form id="noteForm">
+        <div id="notePopup" class="popup" style="display: none">
+          <div class="popup-content">
+            <h2 id="h2">Respond to the prompt!</h2>
+            <input
+              type="text"
+              name="status"
+              placeholder="Send your thoughts..."
+            />
+            <input type="Submit" value="Post" />
+            <button type="button" id="closePopup">Cancel</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

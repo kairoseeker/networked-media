@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Future - The Listening Bulletin</title>
+    <link rel="stylesheet" href="future.css" />
+  </head>
+  <body>
+    <div class="header">
+      <p class="p1" id="past">past</p>
+      <p class="p1" id="title">the listening bulletin</p>
+      <p class="p1" id="future">future</p>
+    </div>
+    
+    <div class="container">
+      <div id="formContainer">
+        <form id="suggestionForm">
+          <div class="form-example">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-example">
+            <label for="prompt">Prompt suggestions? </label>
+            <input type="text" name="prompt" id="prompt" required />
+          </div>
+          <div class="form-example">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+      <div id="messageContainer" style="display: none;">
+        <p id="thankYouMessage"></p>
+      </div>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
