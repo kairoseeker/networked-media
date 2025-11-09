@@ -1,0 +1,50 @@
+{"date":"11/9/2025, 2:25:21 PM","text":"Hallo","timestamp":1762716321180,"_id":"Sg2EvpUimML92HMO"}
+{"date":"11/9/2025, 2:25:30 PM","text":"Pershendetje","timestamp":1762716330165,"_id":"yPoINyb8jRe9EmsU"}
+{"date":"11/9/2025, 2:25:36 PM","text":"Marhaban","timestamp":1762716336000,"_id":"E3OFKJtQiJRJ1W2U"}
+{"date":"11/9/2025, 2:25:40 PM","text":"Barev","timestamp":1762716340975,"_id":"A3jWgF0DdeXVDLtE"}
+{"date":"11/9/2025, 2:25:45 PM","text":"Salam","timestamp":1762716345501,"_id":"6rhd4CGTfvRBhKfG"}
+{"date":"11/9/2025, 2:25:50 PM","text":"Kaixo","timestamp":1762716350961,"_id":"abaKG13HB5kQEtzM"}
+{"date":"11/9/2025, 2:25:55 PM","text":"Zdravo","timestamp":1762716355443,"_id":"bfsTMcOcfY6PZPYb"}
+{"date":"11/9/2025, 2:26:00 PM","text":"Zdraveite","timestamp":1762716360448,"_id":"G73wfGiCZO1w8DuG"}
+{"date":"11/9/2025, 2:26:05 PM","text":"Hola","timestamp":1762716365781,"_id":"2O5w1VfG9BT2purW"}
+{"date":"11/9/2025, 2:26:10 PM","text":"Kumusta","timestamp":1762716370021,"_id":"DwmNKcSHEoqoGUJv"}
+{"date":"11/9/2025, 2:26:15 PM","text":"Bonghjornu","timestamp":1762716375222,"_id":"KKgSOrnj5jnz8S2M"}
+{"date":"11/9/2025, 2:26:29 PM","text":"Bok","timestamp":1762716389003,"_id":"ydlHpuvPORN2iHvh"}
+{"date":"11/9/2025, 2:26:32 PM","text":"Ahoj","timestamp":1762716392999,"_id":"inat3Pg65GV6IXDb"}
+{"date":"11/9/2025, 2:26:37 PM","text":"Hej","timestamp":1762716397104,"_id":"4VBNkGdRxoXwqct2"}
+{"date":"11/9/2025, 2:26:51 PM","text":"Hallo","timestamp":1762716411185,"_id":"rz0S0mcb9eWeSuuX"}
+{"date":"11/9/2025, 2:26:54 PM","text":"Hello","timestamp":1762716414703,"_id":"SG883klh0qbXp0fI"}
+{"date":"11/9/2025, 2:26:59 PM","text":"Saluton","timestamp":1762716419030,"_id":"wkxfYuyX3JrN5chb"}
+{"date":"11/9/2025, 2:27:03 PM","text":"Tere","timestamp":1762716423394,"_id":"7ve2ZWd9swW1kkYy"}
+{"date":"11/9/2025, 2:27:07 PM","text":"Bula","timestamp":1762716427933,"_id":"dnafKWLgMnD3fa3g"}
+{"date":"11/9/2025, 2:27:12 PM","text":"Kumusta","timestamp":1762716432783,"_id":"WCMvNC5YhewBXSVb"}
+{"date":"11/9/2025, 2:27:17 PM","text":"Hei","timestamp":1762716437198,"_id":"0YULTyVbKQN5RA2V"}
+{"date":"11/9/2025, 2:27:21 PM","text":"Bonjour","timestamp":1762716441459,"_id":"kwHTutaEPtne3yiM"}
+{"date":"11/9/2025, 2:27:25 PM","text":"Gamarjoba","timestamp":1762716445399,"_id":"0EPIjZuFWNfYym8e"}
+{"date":"11/9/2025, 2:27:29 PM","text":"Hallo","timestamp":1762716449451,"_id":"3FSw4TfvwEvmmyWw"}
+{"date":"11/9/2025, 2:27:35 PM","text":"Yia sou","timestamp":1762716455267,"_id":"GLG84ecaQo4RGPCX"}
+{"date":"11/9/2025, 2:27:40 PM","text":"Bonjou","timestamp":1762716460503,"_id":"0bns2ZAS3i5rfXe3"}
+{"date":"11/9/2025, 2:27:44 PM","text":"Aloha","timestamp":1762716464598,"_id":"4Flf4iWbf0ovdDfO"}
+{"date":"11/9/2025, 2:27:48 PM","text":"Shalom","timestamp":1762716468359,"_id":"wE53s9ISFWS2OUZg"}
+{"date":"11/9/2025, 2:27:52 PM","text":"Namaste","timestamp":1762716472466,"_id":"XzCqS4bvcNyxWKPl"}
+{"date":"11/9/2025, 2:27:56 PM","text":"Szia","timestamp":1762716476088,"_id":"dacit7ZTU3foqk5P"}
+{"date":"11/9/2025, 2:28:00 PM","text":"Hallo","timestamp":1762716480264,"_id":"WylQ5HVWix60X1ev"}
+{"date":"11/9/2025, 2:28:04 PM","text":"Ndewo","timestamp":1762716484761,"_id":"9Zm3YcNfqftOv06s"}
+{"date":"11/9/2025, 2:28:08 PM","text":"Halo","timestamp":1762716488320,"_id":"9MnjLXZNBAluBD04"}
+{"date":"11/9/2025, 2:28:12 PM","text":"Dia dhuit","timestamp":1762716492660,"_id":"4J8Eq7P1KjrIUCnr"}
+{"date":"11/9/2025, 2:28:17 PM","text":"Ciao","timestamp":1762716497566,"_id":"8F9WTVPJX8xJyel6"}
+{"date":"11/9/2025, 2:28:21 PM","text":"Konnichiwa","timestamp":1762716501130,"_id":"d2e44GqGd0FpsKBz"}
+{"date":"11/9/2025, 2:28:26 PM","text":"Annyeonghaseyo","timestamp":1762716506151,"_id":"uFYbcsSsnwqtPH3x"}
+{"date":"11/9/2025, 2:28:29 PM","text":"Slav","timestamp":1762716509967,"_id":"6FieDXqTg0nyNIjf"}
+{"date":"11/9/2025, 2:28:33 PM","text":"Salve","timestamp":1762716513297,"_id":"87GzNJAS3aNOp6jT"}
+{"date":"11/9/2025, 2:28:36 PM","text":"Sveiki","timestamp":1762716516976,"_id":"eEjSRd9pQdNszyGL"}
+{"date":"11/9/2025, 2:28:43 PM","text":"Zdravo","timestamp":1762716523009,"_id":"SZEYEwLmaDjr6Dtv"}
+{"date":"11/9/2025, 2:28:49 PM","text":"Selamat pagi","timestamp":1762716529493,"_id":"LbdUw9M1kBVjUe7K"}
+{"date":"11/9/2025, 2:28:53 PM","text":"Bongu","timestamp":1762716533525,"_id":"996hZixBdi46anFD"}
+{"date":"11/9/2025, 2:28:57 PM","text":"Ni hao","timestamp":1762716537767,"_id":"1yqicv8HxT9i2sUJ"}
+{"date":"11/9/2025, 2:29:03 PM","text":"Kia ora","timestamp":1762716543223,"_id":"Uriyu9vlpN4SoBww"}
+{"date":"11/9/2025, 2:29:07 PM","text":"Namaste","timestamp":1762716547252,"_id":"8qQ6z0j1iMJWAIk8"}
+{"date":"11/9/2025, 2:29:11 PM","text":"Hei","timestamp":1762716551632,"_id":"EEYrSyBbUWG6Dw7r"}
+{"date":"11/9/2025, 2:29:15 PM","text":"Salam","timestamp":1762716555661,"_id":"CVkdPS7OYdFNTHyl"}
+{"date":"11/9/2025, 2:29:20 PM","text":"Czesc","timestamp":1762716560538,"_id":"WEvKjKleqMOb22g9"}
+{"date":"11/9/2025, 2:29:41 PM","text":"Ola","timestamp":1762716581804,"_id":"45nxNQbDDY0QUs1f"}

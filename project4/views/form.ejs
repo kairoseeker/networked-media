@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Project 4</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="/post" method="POST" enctype="multipart/form-data">
+            <textarea name="text" placeholder="Say something!"></textarea>
+            <input type="submit" value="Add to database">
+        </form>
+
+        <div class="posts">
+            <% for(let post of posts){ %>
+                <span> <%= post.date %> </span>
+                <p> 
+                    <%= post.text %>
+                </p>
+            <% } %>
+        </div>
+    </body>
+</html>

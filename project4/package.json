@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@seald-io/nedb": "^4.1.2",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "masto": "^7.4.0",
+    "multer": "^2.0.2"
+  }
+}
