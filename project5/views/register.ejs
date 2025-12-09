@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register - Kitty Calendar</title>
+  <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+  
+  <div class="form-container">
+    <h1>Register</h1>
+    
+    <form action="/signup" method="POST">
+    <input type="text" name="fullname" placeholder="your full name" required>
+    <input type="text" name="username" placeholder="choose a username" required>
+    <input type="password" name="password" placeholder="choose a password" required>
+    
+    <button type="submit" class="submit-btn">Register</button>
+    </form>
+    
+    <div class="nav-buttons">
+  <a href="/" class="nav-btn">Home</a>
+</div>
+    
+    <a href="/login" class="register-link">Already have an account? Login here!</a>
+  </div>
+  
+</body>
+</html>
