@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kitty Calendar</title>
+    <link href="/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <% if (loggedIn) { %>
+
+        <a href="/logout" class="logout-button" id="logoutButton">← Logout</a>
+
+      <div class="sticker-tab-hotspot-toc" id="stickerTabHotspotTOC"></div>
+  
+  <div class="sticker-sheet-modal" id="stickerSheetModal">
+    <div class="sticker-sheet-content">
+      <div class="close-sticker-sheet" id="closeStickerSheet">×</div>
+      <h2>Stickers</h2>
+      
+      <div class="sticker-grid" id="stickerGrid">
+        <img src="/images/catnip.png" class="sticker-item" data-sticker="catnip" alt="Catnip">
+        <img src="/images/drink.png" class="sticker-item" data-sticker="drink" alt="Drink">
+        <img src="/images/eat.png" class="sticker-item" data-sticker="eat" alt="Eat">
+        <img src="/images/get-sun.png" class="sticker-item" data-sticker="get-sun" alt="Get Sun">
+        <img src="/images/groom.png" class="sticker-item" data-sticker="groom" alt="Groom">
+        <img src="/images/hunt.png" class="sticker-item" data-sticker="hunt" alt="Hunt">
+        <img src="/images/play.png" class="sticker-item" data-sticker="play" alt="Play">
+        <img src="/images/poop.png" class="sticker-item" data-sticker="poop" alt="Poop">
+        <img src="/images/sleep.png" class="sticker-item" data-sticker="sleep" alt="Sleep">
+      </div>
+    </div>
+  </div>
+
+      <div class="table-of-contents-view">
+        <img src="/images/welcome-page.png" alt="Table of Contents" class="toc-background">
+        
+        <a href="/12" class="month-marker" id="jan-marker">
+          <img src="/images/month1.png" alt="January">
+        </a>
+        <a href="/12" class="month-marker" id="feb-marker">
+          <img src="/images/month2.png" alt="February">
+        </a>
+        <a href="/34" class="month-marker" id="mar-marker">
+          <img src="/images/month3.png" alt="March">
+        </a>
+        <a href="/34" class="month-marker" id="apr-marker">
+          <img src="/images/month4.png" alt="April">
+        </a>
+        <a href="/56" class="month-marker" id="may-marker">
+          <img src="/images/month5.png" alt="May">
+        </a>
+        <a href="/56" class="month-marker" id="jun-marker">
+          <img src="/images/month6.png" alt="June">
+        </a>
+        <a href="/78" class="month-marker" id="jul-marker">
+          <img src="/images/month7.png" alt="July">
+        </a>
+        <a href="/78" class="month-marker" id="aug-marker">
+          <img src="/images/month8.png" alt="August">
+        </a>
+        <a href="/910" class="month-marker" id="sep-marker">
+          <img src="/images/month9.png" alt="September">
+        </a>
+        <a href="/910" class="month-marker" id="oct-marker">
+          <img src="/images/month10.png" alt="October">
+        </a>
+        <a href="/1112" class="month-marker" id="nov-marker">
+          <img src="/images/month11.png" alt="November">
+        </a>
+        <a href="/1112" class="month-marker" id="dec-marker">
+          <img src="/images/monthtwelve.png" alt="December">
+        </a>
+      </div>
+
+   <% } else { %>
+  <div class="landing-page">
+    <div class="landing-container">
+      <h1>Kitty Calendar</h1>
+     <p>The kitty calendar is for you to take life slower, and more relaxed</p>
+     <p>Live from the kitty's perspective, and focus on naps (and stuff) instead of work.</p>
+      <div class="button-group">
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+      </div>
+    </div>
+  </div>
+<% } %>
+    
+    <script src="/calendar.js"></script>
+  </body>
+</html>
